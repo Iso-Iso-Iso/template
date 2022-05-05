@@ -13,10 +13,6 @@ const tabs =
 const showTabBtn = document.querySelector(".comparison__show-btn-mobile");
 const spoilerId = document.querySelectorAll("[data-spoiler-id]");
 
-// window
-window.addEventListener("load", () => {
-  document.querySelector(".loading").style.display = "none";
-});
 // <================================================>
 for (let item of card) {
   item.addEventListener("mousemove", function (e) {
